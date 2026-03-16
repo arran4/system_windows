@@ -134,10 +134,8 @@ class _MyAppState extends State<MyApp> {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(
-                                    "Name: " + windowsToShow[index].name ?? ""),
-                                Text("Title: " + windowsToShow[index].title ??
-                                    ""),
+                                Text("Name: " + windowsToShow[index].name),
+                                Text("Title: " + windowsToShow[index].title),
                               ],
                             )),
                       ],
